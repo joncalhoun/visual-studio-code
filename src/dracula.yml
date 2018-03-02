@@ -181,7 +181,7 @@ colors:
 
   editor.hoverHighlightBackground: *BGDarker                                    # Highlight below the word for which a hover is shown
 
-  editor.lineHighlightBackground:                                               # Background color for the highlight of line at the cursor position
+  editor.lineHighlightBackground: *SELECTION                                    # Background color for the highlight of line at the cursor position
   editor.lineHighlightBorder: *SELECTION                                        # Background color for the border around the line at the cursor position
 
   editorLink.activeForeground: *CYAN                                            # Color of active links
